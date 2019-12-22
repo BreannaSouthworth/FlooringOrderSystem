@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.bjsouth.flooring.service.FMServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.886 s <<< FAILURE! - in com.bjsouth.flooring.service.FMServiceImplTest
+getOrdersBy04082019Date  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The order in this list should be order A ==> expected: <true> but was: <false>
+	at com.bjsouth.flooring.service.FMServiceImplTest.getOrdersBy04082019Date(FMServiceImplTest.java:52)
+
+calculateOrderCTotalTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bjsouth.flooring.service.FMServiceImplTest.calculateOrderCTotalTest(FMServiceImplTest.java:124)
+
+calculateOrderBTotalTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bjsouth.flooring.service.FMServiceImplTest.calculateOrderBTotalTest(FMServiceImplTest.java:98)
+
+calculateOrderATotalTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bjsouth.flooring.service.FMServiceImplTest.calculateOrderATotalTest(FMServiceImplTest.java:72)
+
+getOrdersBy11192019Date  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Order B should be in this list ==> expected: <true> but was: <false>
+	at com.bjsouth.flooring.service.FMServiceImplTest.getOrdersBy11192019Date(FMServiceImplTest.java:64)
+
